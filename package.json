@@ -1,0 +1,10 @@
+{
+  "name": "cloudflare-tgbot-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A lightweight, secure, and dependency-free reverse proxy for the Telegram Bot API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}

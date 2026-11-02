@@ -1,0 +1,46 @@
+# Cloudflare Workers & Wrangler
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Test coverage & logs
+coverage/
+.nyc_output/
+logs/
+*.log
+
+# Build & temporary files
+dist/
+build/
+tmp/
+temp/
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

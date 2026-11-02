@@ -1,0 +1,14 @@
+name = "cloudflare-tgbot-proxy"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Optional: comma-separated list of allowed bot tokens. If empty or not set, all tokens are allowed.
+# ALLOWED_TOKENS = "123:ABC"
+
+# Optional: default backend URL to forward incoming Telegram webhooks to.
+# Can also be set per-request via ?target=https://... query parameter.
+# WEBHOOK_TARGET_URL = "https://your-backend.com/webhook"
+
+# Optional: extra IP addresses or CIDR blocks allowed for webhooks (e.g. for local testing).
+# ALLOWED_WEBHOOK_IPS = ""
